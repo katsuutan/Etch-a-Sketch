@@ -19,7 +19,7 @@ function createSquare(rowContainer, size) {
 
     // Hover effect by adding a new class to each square if mouseover
     squareDiv.addEventListener('mouseover', function(e) {
-        e.target.classList.add('active');
+        // e.target.classList.add('active'); // default
         // Sets a randomized background color for each square on a mouseover event.
         squareDiv.style.backgroundColor = `rgb(${randomRGB()}, ${randomRGB()}, ${randomRGB()}`;
     });
